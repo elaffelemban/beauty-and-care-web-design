@@ -1,0 +1,292 @@
+<html>
+
+<head>
+    <style>
+body {
+    margin:0;
+  padding:0;
+  font-family:Arial;
+  width: 100%;
+background-image: url("backdround.JPEG"); 
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.menu{
+width: 400px;
+float: right;
+height: 70px;
+}
+ul {
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 155px;
+margin-top: 24px;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  
+  font-size: 21px;
+}
+
+ul li a{
+ text-decoration: none;
+ color: #594545;
+ font-family: Arial;
+ font-weight: bold;
+ transition: 0.4 ease-in-out;
+}
+li {
+  float: left;
+  
+}
+
+ul li a:hover {
+  color: #76BA99;
+  
+}
+
+.fr{
+  float: left;
+  margin-left: 20%;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: #594545;
+}
+
+.form{
+  position: relative;
+}
+
+.textbox{
+  border: 2px solid #594545;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color: #594545;
+}
+
+.form-label {
+  position: absolute;
+  top: 0.6rem;
+  left: 1.4rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms, font-size 200ms;
+
+}
+
+.textbox:focus{
+  border: 2px solid  #76BA99;
+}
+
+.textbox:focus ~.form-label,
+.textbox:not(:placeholder-shown).text:not(:focus)~.form-label
+{
+  top: -0.3rem;
+  left: 0.5rem;
+  font-size: 10px;
+  background: rgb(252, 247, 241);
+}
+
+.rm{
+  position: relative;
+}
+.xt{
+  border: 2px solid #594545;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color: #594545;
+}
+
+.bl{
+  position: absolute;
+  top: 0.6rem;
+  left: 1.4rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms, font-size 200ms;
+
+}
+
+.xt:focus{
+  border: 2px solid  #76BA99;
+}
+
+.xt:focus ~.bl,
+.xt:not(:placeholder-shown).text:not(:focus)~.bl
+{
+  top: -0.3rem;
+  left: 0.5rem;
+  font-size: 10px;
+  background: rgb(252, 247, 241);
+}
+
+
+
+.text{
+  position: relative;
+}
+.ta{
+  border: 2px solid #594545;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color: #594545;
+}
+
+.lbl{
+  position: absolute;
+  top: 0.6rem;
+  left: 1.4rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms, font-size 200ms;
+
+}
+
+.ta:focus{
+  border: 2px solid  #76BA99;
+}
+
+.ta:focus ~.lbl,
+.ta:not(:placeholder-shown).text:not(:focus)~.lbl
+{
+  top: -0.3rem;
+  left: 0.5rem;
+  font-size: 10px;
+  background: rgb(252, 247, 241);
+}
+
+
+
+
+    </style >   
+<title> feedback </title>
+
+</head>
+
+
+<body>
+    <div class= "main">
+        <div class="navbar">
+           <div class="icon">
+               <h2 class="logo"></h2>
+            </div>
+            
+            <div class="menu">
+               <ul>
+                   <li><a href="home.html">Home</a></li>
+                   <li><a href="project.html">Categories</a></li>
+                   <li><a href="feedback.html">Feedback</a></li>
+                   <li><a href="about.html">About</a></li>
+                  
+               </ul>
+             </div> 
+               
+             </div>
+         </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+         <div class="fr">
+    
+         <form method = "post" action = " ">
+          <div class="form">
+            <input type = "text" Name = "placeholder" class="textbox"
+            value = "" size ="25" >
+            <label class="form-label">Name</label> <br><br>
+          </div>
+
+          <div class="rm">
+           <input type = "text" Name = "placeholder" class="xt"
+            value = "" size ="25">
+            <label class="bl">E-mail</label><br><br>
+          </div>
+         
+            <div class="text">
+            <textarea name="name" rows="6" cols="60" class="ta">  </textarea>
+            <label class="lbl">comment</label><br><br>
+
+           </div>
+
+            <strong>What did you search for on our site?</stronge><br>
+            <div class="wrapper">
+              <div class="dflex">
+               <div class="custom_checkbox" >
+            <input  type= "checkbox" id="post">
+            <label for="post">makeup</label>
+          </div>
+
+          <div class="custom_checkbox" >
+            <input  type= "checkbox"  id="post">
+            <label for="post">skin care</label>
+          </div>
+
+            <div class="custom_checkbox" >
+            <input type= "checkbox"  id="post">
+            <label for="post">hair care</label>
+          </div>
+
+            <div class="custom_checkbox" >
+            <input  type= "checkbox"  id="post">
+            <label for="post">bath &amp;body</label>
+          </div>
+
+            <div class="custom_checkbox" >
+            <input  type= "checkbox"  id="post">
+            <label for="post">Beauty &amp;care stores</label>
+          </div>
+        </div>
+        </div>
+            
+            <div>
+            
+            <strong> The website was easy to navigate		 </stronge> <br>
+            
+            <label> <input name= "howtosite" type= "radio" value= " yes " class="option-input radio">Yes</label>
+            
+            <label> <input name= "howtosite" type= "radio" value= " no" class="option-input radio">No</label>
+
+          </div>
+          
+            <label> Rate our site:
+            <Select name= "rating">
+            <option Selected > 10 </option>
+            <option > 9 </option>
+            <option > 8 </option>
+            <option > 7 </option>
+            <option > 6 </option>
+            <option > 5 </option>
+            <option > 4 </option>
+            <option > 3 </option>
+            <option > 2 </option>
+            <option > 1 </option>
+
+            </Select>
+            </label>
+
+            <br><br> <input type = "submit"   value = "Save">
+            
+            
+            
+            </form> 
+        </div>
+      
+</body>
+
+</html>
